@@ -126,6 +126,36 @@
     <header class="article-header">
         
         <h1 itemprop="name">
+            <a href="/blog/2019/07/25/miniprogram2/">小程序坑</a>
+        </h1>
+        
+        <div class="article-meta clearfix">
+            <a class="article-date" href="https://alwaysskylll.github.io/blog/page/3/index.html">
+    
+    <i class="icon-calendar vm"></i>
+    
+    <time class="vm" datetime="2019-07-25T04:15:02.000Z" itemprop="datePublished">2019-07-25</time>
+</a>
+
+            
+
+        </div>
+    </header>
+    
+    <section class="article-body markdown-body">
+        
+        <h4 id="小程序坑"><a href="#小程序坑" class="headerlink" title="小程序坑"></a>小程序坑</h4><p>1、wx.animation 动画效率比 css3 好（强开GPU渲染也卡）</p>
+
+        
+    </section>
+</article>
+
+
+    <article class="article" itemscope itemprop="blogPost">
+    
+    <header class="article-header">
+        
+        <h1 itemprop="name">
             <a href="/blog/2019/07/24/mysql/">mysql</a>
         </h1>
         
@@ -442,36 +472,6 @@
     <section class="article-body markdown-body">
         
         <p>1、navigateBack返回使用getcurrentPage.pop获得返回后的页面的page 对象，自定义getData 方法刷新返回后的页面的数据。<br>如果连续两个navigateBack使用，会报错。navigateBack 回调fail，我想应该是微信对于这个处理是，第一次返回方法已经成功，但是不代表页面已经加载完成，所以连续调用的时候第二次navigateBack调用出错，所以这里设置navigateBack success回调后，延迟1秒，执行getData 方法</p>
-
-        
-    </section>
-</article>
-
-
-    <article class="article" itemscope itemprop="blogPost">
-    
-    <header class="article-header">
-        
-        <h1 itemprop="name">
-            <a href="/blog/2019/03/26/webpack/">webpack</a>
-        </h1>
-        
-        <div class="article-meta clearfix">
-            <a class="article-date" href="https://alwaysskylll.github.io/blog/page/3/index.html">
-    
-    <i class="icon-calendar vm"></i>
-    
-    <time class="vm" datetime="2019-03-26T04:00:00.000Z" itemprop="datePublished">2019-03-26</time>
-</a>
-
-            
-
-        </div>
-    </header>
-    
-    <section class="article-body markdown-body">
-        
-        <p>webpack-dev-server2.8+  node_modules&#x2F;webpack-dev-server&#x2F;client.js 有es6语法，需要使用加入到bable-loader include 中</p>
 
         
     </section>
